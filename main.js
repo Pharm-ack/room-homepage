@@ -7,14 +7,6 @@ function togglebtn() {
 
 hambugarBtn.addEventListener('click', togglebtn)
 
-const closemenu = document.getElementsByClassName('closebtn');
-
-function closeFunction() {
-    remove.classList('show');
-}
-
-closemenu.addEventListener('click', closeFunction)
-
 
 var slider_img = document.getElementById('slider');
 var images = ['desktop-image-hero-1.jpg', 'desktop-image-hero-2.jpg', 'desktop-image-hero-3.jpg'];
